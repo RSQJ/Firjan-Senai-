@@ -1,0 +1,82 @@
+body{
+    
+    background-color: rgb(17, 16, 15);/* coloca cor no fundo do site*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* o codigo acima define a fonte e sea serif*/
+    color: rgb(236, 236, 236);/* adiciona cor a fonte*/
+}
+h1{
+    text-decoration: underline;/* sublinha o texto*/
+    font-style: italic;/* adiciona a fonte italic*/
+    font-weight: bold;  /* negrito*/
+  
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;/*adiciona serif*/
+    font-weight: bold;
+}
+header {
+    
+
+    background-color: rgb(72, 72, 153);/* muda cor do fundo borda*/
+    border: 2px solid rgb(6, 6, 88);/* define a cor da borda e tamhanho*/
+    text-align: center;/* centraliza*/
+    border-radius: 10px;/*arredonda as bordas*/
+    background-color: #6e10ad; /* Cor inicial do botão */
+    color: rgb(5, 1, 1); /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar o mouse */
+    border-radius: 5px; /* Borda arredondada */
+    transition: all 0.3s ease; /* Transição suave para todas as propriedades */
+  
+}
+Nav{
+    background-color: #444343;
+    border:solid 2px #474547;
+    border-style: inset;/* o inset define que aborda é para dentro*/
+    width: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;/*mexe no tamanho do distancia entre as palavras*/
+    
+}
+li {
+   /* margin: 0 10px;*/
+    list-style: none;
+    width: 20% ;
+    
+
+}
+li a{
+    font-size: 16px;/*altera o tamanho da fonte*/
+    font-weight: bold;
+    color:aliceblue;
+    text-decoration: none;
+    transition: font-size 0.3s;/*adiciona uma animação*/
+}
+li a:hover{
+   
+    font-family: 'Courier New', Courier, monospace; /* Altera a fonte */
+    color: rgb(140, 5, 230); /* Altera a cor */
+    font-size: 18px;
+
+}
+div{
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    transition: all 0,3s;
+}
+div:hover{
+    background-color: chartreuse;
+    transition: all 0,3s;
+    border-radius:50px;
+   
+}
+
+
+    
